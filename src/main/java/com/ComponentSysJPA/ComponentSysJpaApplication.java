@@ -1,14 +1,14 @@
-package sideProject.ComponentSys;
+package com.ComponentSysJPA;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ComponentSysApplication {
+public class ComponentSysJpaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ComponentSysApplication.class, args);
-		System.out.println("hello spring boot");
+		SpringApplication.run(ComponentSysJpaApplication.class, args);
+		System.out.println("hello spring boot JPA");
 	}
 
 }

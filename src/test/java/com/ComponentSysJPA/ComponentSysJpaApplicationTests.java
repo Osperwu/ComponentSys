@@ -1,13 +1,14 @@
-package sideProject.ComponentSys;
+package com.ComponentSysJPA;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ComponentSysApplicationTests {
+class ComponentSysJpaApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.err.println("test spring boot");
 	}
 
 }
